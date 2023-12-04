@@ -31,4 +31,9 @@
         android:name="de.syntaxinstitut.fragmentnavigation.ui.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="de.syntaxinstitut.fragmentnavigation.ui.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>

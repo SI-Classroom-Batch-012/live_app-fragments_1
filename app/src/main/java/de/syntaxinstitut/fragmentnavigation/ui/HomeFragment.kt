@@ -30,7 +30,12 @@ class HomeFragment : Fragment() {
             val navController = findNavController()
 
             //Navigiere zu destination
-            navController.navigate(HomeFragmentDirections.actionHomeFragmentToSecondFragment("Hallo", 50))
+            navController.navigate(
+                HomeFragmentDirections.actionHomeFragmentToSecondFragment(
+                    "Hallo",
+                    50
+                )
+            )
         }
     }
 }
